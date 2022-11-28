@@ -14,6 +14,9 @@ jobs:
   build:
     runs-on: ubuntu-latest
 
+    env: 
+      AppInsightsInstrumentationKey: ${{ secrets.APPINSIGHTS_INSTRUMENTATION_KEY }}
+
     steps:
       - uses: actions/checkout@v2
 
@@ -29,6 +32,10 @@ jobs:
       
       - name: Install dependencies
         run: pip install -r requirements.txt
+      
+      - name: Test with pytest
+        run: |
+          pytest
         
       # Optional: Add step to run tests here (PyTest, Django test suites, etc.)
       
