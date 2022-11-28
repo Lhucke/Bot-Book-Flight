@@ -1,0 +1,34 @@
+#asyncio>=3.4.3
+requests==2.23.0
+#botbuilder-core==4.13.0
+#botframework-connector==4.13.0
+#botbuilder-schema==4.13.0
+#botbuilder-dialogs==4.13.0
+#botbuilder-ai==4.13.0
+#botbuilder-applicationinsights==4.13.0
+#botbuilder-integration-aiohttp==4.13.0
+#botbuilder-integration-applicationinsights-aiohttp==4.13.0
+azure-cognitiveservices-language-luis==0.2.0
+datatypes-date-time>=1.0.0.a1
+msrest==0.6.19
+aiohttp==3.6.2
+unittest2
+aiounittest
+opencensus-ext-azure
+emoji==1.7
+python-dotenv
+dateparser==1.1.1
+pytest
+
+-e Bot/botbuilder-samples/samples/python/21.corebot-app-insights/libraries/botbuilder-schema
+-e Bot/botbuilder-samples/samples/python/21.corebot-app-insights/libraries/botframework-connector
+-e Bot/botbuilder-samples/samples/python/21.corebot-app-insights/libraries/botframework-streaming
+-e Bot/botbuilder-samples/samples/python/21.corebot-app-insights/libraries/botbuilder-core
+-e Bot/botbuilder-samples/samples/python/21.corebot-app-insights/libraries/botbuilder-ai
+-e Bot/botbuilder-samples/samples/python/21.corebot-app-insights/libraries/botbuilder-applicationinsights
+-e Bot/botbuilder-samples/samples/python/21.corebot-app-insights/libraries/botbuilder-dialogs
+-e Bot/botbuilder-samples/samples/python/21.corebot-app-insights/libraries/botbuilder-azure
+-e Bot/botbuilder-samples/samples/python/21.corebot-app-insights/libraries/botbuilder-integration-applicationinsights-aiohttp
+-e Bot/botbuilder-samples/samples/python/21.corebot-app-insights/libraries/botbuilder-adapters-slack
+-e Bot/botbuilder-samples/samples/python/21.corebot-app-insights/libraries/botbuilder-integration-aiohttp
+-e Bot/botbuilder-samples/samples/python/21.corebot-app-insights/libraries/botbuilder-testing
