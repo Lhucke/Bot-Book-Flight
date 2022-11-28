@@ -104,7 +104,7 @@ def init_func(self):
     return APP
 
 if __name__ == "__main__":
-    APP = init_func(main)
+    APP = init_func()
     try:
         web.run_app(APP, host="0.0.0.0", port=8000)
     except Exception as error:
