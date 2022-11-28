@@ -1,9 +1,8 @@
 import aiounittest
-import json
 
-from libraries.botbuilder.core import ConversationState, MemoryStorage, TurnContext
-from libraries.botbuilder.core.adapters import TestAdapter
-from libraries.botbuilder.dialogs import DialogSet, DialogTurnStatus
+from botbuilder.core import ConversationState, MemoryStorage, TurnContext
+from botbuilder.core.adapters import TestAdapter
+from botbuilder.dialogs import DialogSet, DialogTurnStatus
 
 from config import DefaultConfig
 from dialogs import BookingDialog, MainDialog
